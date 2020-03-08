@@ -22,8 +22,8 @@ body {
 
 #chatHeader {
     padding: 15px;
-    border-bottom: 4px solid #283593;
-    background: white;
+    border-bottom: 4px solid black;
+    background-color:  white;
     color: black;
     z-index: 2;
     position: fixed;
@@ -90,9 +90,9 @@ body {
     margin: 1.5px 5px 5px 0;
     vertical-align: top;
     background: white;
-    border: 1px solid #283593;
+    border: 1px solid grey;
     cursor: pointer;
-    color: #283593;
+    color: black;
     border-radius: 0 8px 8px 0;
     transition: all .4s;
     font-size: 3vmax;
@@ -114,10 +114,11 @@ body {
 .chatBubble1 {
     border: 1px solid #888888;
     border-radius: 12px 12px 12px 0;
+    background-color: antiquewhite;
 }
 
 .chatBubble2 {
-    border: 1px solid #283593;
+    border: 1px solid black;
     border-radius: 12px 12px 0 12px;
     margin-left: auto;
     margin-right: 15px;
