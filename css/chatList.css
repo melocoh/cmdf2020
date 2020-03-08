@@ -25,6 +25,7 @@ html, body {
     margin-bottom: 5px;
     padding-bottom: 3px;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(238, 195, 195);
 }
 
 .container:hover {
