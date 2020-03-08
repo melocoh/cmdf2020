@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-    padding: 5vh 0;
+    padding-top: 10vh;
 
 }
 
@@ -15,4 +15,22 @@ body {
     background-color:#BB997F;
     box-shadow: black;
     padding: 5vh 5vw;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #783B5A;
+    border-color: #783B5A;
+}
+
+.btn-primary:focus {
+    color: white;
+    background-color: #AA6A6A;
+    border-color: #AA6A6A;
+}
+
+.btn-primary:active {
+    color: white;
+    background-color: #AA6A6A;
+    border-color: #AA6A6A;
 }

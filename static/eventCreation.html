@@ -13,6 +13,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBaJWcZTvbjRljR0jxPhc-n4AF7DE262q4",
+            authDomain: "cmdf2020.firebaseapp.com",
+            databaseURL: "https://cmdf2020.firebaseio.com",
+            projectId: "cmdf2020",
+            storageBucket: "cmdf2020.appspot.com",
+            messagingSenderId: "828123466609",
+            appId: "1:828123466609:web:02fa7d943ac58f579904d0",
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        var db = firebase.firestore();
+    </script>
+
+    <!--my stylesheet-->
     <link rel="stylesheet" href="../css/eventCreation.css" />
 
 
@@ -21,65 +48,30 @@
 <body>
     <div id="container" class="container">
         <div id="textbox" class="textbox">
-            <h1>Insert Message</h1>
+            <h1>Find a Friend!</h1>
 
-            <form>
+            <form id="form_eventCreation" class="form_eventCreation">
                 <div class="form-group row">
-                    <label for="subject" class="col-sm-2 col-form-label">Subject</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
                     </div>
                 </div>
                 <div class="form-group row">
                     <div class="col">
-                        <input type="number" class="form-control" id="year" placeholder="Years">
+                        <input type="number" class="form-control" id="year" placeholder="Years" required>
                     </div>
                     <div class="col">
-                        <input type="number" class="form-control" id="year" placeholder="Language">
+                        <input type="text" class="form-control" id="language" placeholder="Language" required>
                     </div>
                 </div>
-                <fieldset class="form-group">
-                    <div class="row">
-                        <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-                        <div class="col-sm-10">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
-                                    value="option1" checked>
-                                <label class="form-check-label" for="gridRadios1">
-                                    First radio
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                    value="option2">
-                                <label class="form-check-label" for="gridRadios2">
-                                    Second radio
-                                </label>
-                            </div>
-                            <div class="form-check disabled">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
-                                    value="option3" disabled>
-                                <label class="form-check-label" for="gridRadios3">
-                                    Third disabled radio
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </fieldset>
-                <div class="form-group row">
-                    <div class="col-sm-2">Checkbox</div>
-                    <div class="col-sm-10">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck1">
-                            <label class="form-check-label" for="gridCheck1">
-                                Example checkbox
-                            </label>
-                        </div>
-                    </div>
+                <div class="input-group-prepend">
+                    <textarea id="message" class="form-control"
+                        aria-label="With textarea" placeholder="Message to send out" require></textarea>
                 </div>
+                <br />
                 <div class="form-group row">
                     <div class="col-sm-10">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" id="button_submit" class="btn btn-primary">Submit</button>
                     </div>
                 </div>
             </form>
@@ -90,6 +82,10 @@
     </div>
 
 
+
+
+    <!--my script-->
+    <script src="../scripts/eventCreation.js"></script>
 
     <!-- Jquery, Bootstrap CDN, Fontawesome CDN -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -102,30 +98,6 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/df012b2a98.js" crossorigin="anonymous"></script>
-
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
-
-    <script>
-        // Your web app's Firebase configuration
-        var firebaseConfig = {
-            apiKey: "AIzaSyBaJWcZTvbjRljR0jxPhc-n4AF7DE262q4",
-            authDomain: "cmdf2020.firebaseapp.com",
-            databaseURL: "https://cmdf2020.firebaseio.com",
-            projectId: "cmdf2020",
-            storageBucket: "cmdf2020.appspot.com",
-            messagingSenderId: "828123466609",
-            appId: "1:828123466609:web:02fa7d943ac58f579904d0",
-            measurementId: "G-J87WGS3DNZ"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        firebase.analytics();
-    </script>
 
 
 </body>
