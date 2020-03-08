@@ -1,0 +1,41 @@
+head, body{
+    margin: 0;
+    padding: 0;
+    /* width: 414px;
+    height: 736px; */
+}
+
+#container {
+    background-color: #AA6A6A;
+    width: 100%;
+    height: 200vh;
+}
+
+.button {
+    margin:10%;
+    background: #ffffff;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 80vw;
+    text-decoration: none;
+    
+  }
+  
+.button figure {
+    margin: 0 0 15px;
+  }
+  
+.button figure img {
+    /* border-radius: 100%; */
+    width: 35vw;
+  }
+  
+.button .text {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1d368a;
+    margin: 0 0 15px;
+    font-size: 25px;
+  }
