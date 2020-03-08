@@ -6,7 +6,7 @@ head, body{
 }
 
 #container {
-    background-color: #AA6A6A;
+    background-color: rgb(238, 195, 195);
     width: 100%;
     height: 200vh;
 }
@@ -38,4 +38,11 @@ head, body{
     color: #1d368a;
     margin: 0 0 15px;
     font-size: 25px;
+  }
+
+  .header{
+    text-align: center;
+  }
+  #logo{
+      width: 30%;
   }

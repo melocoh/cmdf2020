@@ -34,3 +34,10 @@ body {
     background-color: #AA6A6A;
     border-color: #AA6A6A;
 }
+
+.header{
+    text-align: center;
+}
+#logo{
+    width: 30%;
+}

@@ -1,3 +1,12 @@
+
+.header{
+    text-align: center;
+  }
+  #logo{
+      width: 30%;
+  }
+
+
 head, body{
     margin: 0;
     padding: 0;
@@ -11,7 +20,7 @@ head, body{
     
 }
 #container {
-    background-color: #AA6A6A;
+    background-color: rgb(214, 153, 153);
     width: 100%;
     height: 200vh;
 }
@@ -73,3 +82,4 @@ head, body{
     /* display: inline-block; */
     background-color: white;
 }
+

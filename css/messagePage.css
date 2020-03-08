@@ -1,0 +1,29 @@
+    .messageGrid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 25% 25% 25% 25%;
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+
+    #person {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 50% 50%;
+    }
+
+    #name {
+        grid-row: 0 / span 1;
+        grid-column: 2 / span 1;
+    }
+
+    .profileLogo{
+        grid-row: 0 / span 2;
+        grid-column: 1 / span 1;
+    }
+
+    #profileLogo{
+      border:3px black;
+      border-style: solid;
+      
+    }
