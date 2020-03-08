@@ -1,13 +1,14 @@
 head, body{
     margin: 0;
-    padding: 0;
+    /* padding: 0;
     width: 414px;
-
+    height: 736px; */
 }
+
 #container {
     background-color: #AA6A6A;
-    width: 414px;
-    height: 736px;
+    width: 100%;
+    height: 100%;
 }
 
 .button {
@@ -28,7 +29,7 @@ head, body{
   
 .button figure img {
     /* border-radius: 100%; */
-    width: 40vw;
+    width: 35vw;
   }
   
 .button .text {
@@ -37,8 +38,4 @@ head, body{
     color: #1d368a;
     margin: 0 0 15px;
     font-size: 25px;
-  }
-
-.button:hover {
-    background-color: RoyalBlue;
   }
