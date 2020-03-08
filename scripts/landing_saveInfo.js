@@ -3,15 +3,13 @@ firebase.auth().onAuthStateChanged(function (user) {
     console.log(user.email);
     console.log(user.displayName);
     username = user.uid;
+    console.log(user.uid);
     db.collection("user").doc(user.uid).set({
         email: user.email,
-        name: user.displayName,
-    }), {
-        merge: true
-    }
-
-
+        name: user.displayName
+    })
 });
+
 
 // db.collection('user').doc(user.uid).onSnapshot(function (snap) {
 //     console.log(snap.data());
