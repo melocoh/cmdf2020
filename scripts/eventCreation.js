@@ -1,12 +1,7 @@
-$("#button_submit").click(function(e){
-    e.preventDefault();
-    console.log("in handler: clicked!");
-
-});
 
 document
-.getElementById("button_submit")
-.addEventListener("click", processForm);
+.getElementById("form_eventCreation")
+.addEventListener("submit", processForm);
 
 function processForm(e) {
 
