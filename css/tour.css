@@ -1,0 +1,79 @@
+/* #event{
+    display: grid;
+    grid-template-rows: 65% 10% 25%;
+    grid-template-columns: 100%;
+    background-color: pink;
+} */
+
+/* #eventImage{
+    grid-row: 0 / span 1;
+    grid-column: 1 / span 1;
+}
+
+#imgEvent {
+    height: 5vh;
+} */
+
+/* ************************************ */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+head,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 195, 195);
+}
+
+#container {
+    /* padding-top: 10vh; */
+    background-color: rgb(238, 195, 195);
+    width: 100%;
+    overflow: scroll;
+}
+
+#textbox {
+    width: 80vw;
+    /* height: 80%; */
+    margin: auto;
+    /* background-color:#BB997F; */
+    box-shadow: black;
+    padding: 5vh 5vw;
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#eventImg{
+    width: 50px;
+}
+
+.tourGrid {
+    /* display: grid;
+    grid-template-rows: 65% 10% 25%;
+    grid-template-columns: 100%; */
+    background-color: pink;
+    padding-right: 10px;
+    /* padding-top: 10px; */
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+/* #tours {
+    grid-row: 0 / span 1;
+    grid-column: 1 / span 1;
+    text-align: center;
+    padding-top: 20px;
+} */
+
+#heading {
+    margin-left: 30px;
+}
+
+#logo {
+    width: 30%;
+}
