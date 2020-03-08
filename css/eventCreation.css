@@ -22,3 +22,15 @@ body {
     background-color: #783B5A;
     border-color: #783B5A;
 }
+
+.btn-primary:focus {
+    color: white;
+    background-color: #AA6A6A;
+    border-color: #AA6A6A;
+}
+
+.btn-primary:active {
+    color: white;
+    background-color: #AA6A6A;
+    border-color: #AA6A6A;
+}
