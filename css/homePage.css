@@ -1,14 +1,14 @@
 head, body{
     margin: 0;
-    /* padding: 0;
-    width: 414px;
+    padding: 0;
+    /* width: 414px;
     height: 736px; */
 }
 
 #container {
     background-color: #AA6A6A;
     width: 100%;
-    height: 100%;
+    height: 200vh;
 }
 
 .button {
