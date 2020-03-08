@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <!-- my stylesheet -->
-    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="./css/login.css" />
 
 </head>
 
@@ -25,7 +25,7 @@
         <!-- <div id='title'><img src="./images/logo.png" id="logoImage" /></div> -->
         <!-- <div id='subtitle' class="subtitle">Workout Together, <br />Stay Motivated</div> -->
         <div class="header">
-            <img id="logo" src="../images/logo.png">
+            <img id="logo" src="./images/logo.png">
         </div>
         <div id="firebaseui-auth-container"></div>
         <!-- <div id="loader"><img src="./images/loading.gif" id='workoutGIF'/></div> -->
@@ -68,7 +68,7 @@
                 },
                 // Will use popup for IDP Providers sign-in flow instead of the default, redirect.
                 signInFlow: 'popup',
-                signInSuccessUrl: '/static/homePage.html',
+                signInSuccessUrl: './static/homePage.html',
                 signInOptions: [
                     // Leave the lines as is for the providers you want to offer your users.
                     // firebase.auth.GoogleAuthProvider.PROVIDER_ID,
@@ -79,7 +79,7 @@
                     // firebase.auth.PhoneAuthProvider.PROVIDER_ID
                 ],
                 // Terms of service url.
-                tosUrl: '/static/homePage.html',
+                tosUrl: './static/homePage.html',
                 // Privacy policy url.
                 privacyPolicyUrl: './views/Index.html'
             };
