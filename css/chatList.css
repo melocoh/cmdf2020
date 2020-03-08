@@ -74,4 +74,9 @@ html, body {
 
 #navbar .fa-comment {
     color: #283593;
+    
+}
+
+#navbar {
+    margin-left: -6%;
 }
