@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
 body {
-    background-color: #BB997F;
+    background-color: rgb(238, 195, 195);
 }
 
 #firebaseui-auth-container {
@@ -12,5 +12,5 @@ body {
     text-align: center;
   }
   #logo{
-      width: 30%;
+      width: 32%;
   }

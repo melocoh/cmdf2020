@@ -34,3 +34,7 @@
 #bottomBuffer {
     margin-bottom: 10vmax;
 }
+
+#eventId{
+    background-color: rgb(238, 195, 195);
+}
