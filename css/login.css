@@ -6,3 +6,10 @@ body {
     margin: auto;
     margin-top: 5vh;
 }
+
+.header{
+    text-align: center;
+  }
+  #logo{
+      width: 30%;
+  }
