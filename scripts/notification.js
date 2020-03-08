@@ -67,7 +67,7 @@ db.collection("invitation").orderBy("timeStamp", "desc").get().then(function (qu
         $('<p/>', {
             appendTo: '#' + doc.id + 'thirdDiv',
             addClass: 'card-text whiteFont mb-0 pl-3 col-11 pl-0',
-            text: doc.data().message
+            text: doc.data().message 
         })
         // $('<i/>',{
         //   appendTo:'#'+doc.id+'thirdDiv',
