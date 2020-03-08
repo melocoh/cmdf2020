@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
 
-#bottomBuffer {
-    margin-bottom: 10vmax;
-}
 
 html, body {
     background-color: white;
