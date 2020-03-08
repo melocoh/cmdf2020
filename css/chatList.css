@@ -2,19 +2,31 @@
 
 
 html, body {
-    background-color: white;
     padding: 0;
-    margin: auto;
+    margin: 0;
     float: center;
     font-size: 2vmax;
 }
 
+#bigChatBox {
+    height: 100vh;
+    background-color: rgb(238, 195, 195);
+}
+
 #content {
     font-family: 'Roboto', sans-serif;
+
 }
 
 #content span {
+    color: #AA6A6A;
+    /* text-transform: uppercase; */
     font-weight: bold;
+    font-size: 60px;
+}
+
+#pageTitle{
+    font-size: 400px;
 }
 
 .container {
@@ -25,7 +37,7 @@ html, body {
     margin-bottom: 5px;
     padding-bottom: 3px;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(238, 195, 195);
+
 }
 
 .container:hover {
@@ -36,6 +48,11 @@ html, body {
 
 .container:not(:hover) {
     transition: all 150ms ease;
+}
+
+#chatName {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 #chatPicture img {

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+
+#eventId div {
+    background-color: rgb(238, 195, 195);
+
+}
+
+#pageTitle {
+    font-size: 50px;
+    font-weight: bold;
+    color: #AA6A6A;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 5%;
+}
+
+#bottomBuffer {
+    margin-bottom: 15vmax;
+
+}
