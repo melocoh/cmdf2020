@@ -1,27 +1,20 @@
-<!DOCTYPE>
+<!doctype>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seam</title>
+    <!-- Internal linked stylesheets -->
+    <link rel="stylesheet" type="text/css" href="../css/general.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/questionSearch.css" />
 
-    <!-- Bootstrap for Mobile-first -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name = "viewport" content="width = device-width, initial-scale= 1">
 
-    <!-- Add Firebase products that you want to use -->
-    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
-    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-
+    <!-- For linked Icons scripts in NavBar -->
+    <script src="https://kit.fontawesome.com/ffa0cc5e23.js" crossorigin="anonymous"></script>
     <script>
         // Your web app's Firebase configuration
         var firebaseConfig = {
@@ -40,7 +33,6 @@
 
     <!--my stylesheet-->
     <link rel="stylesheet" href="../css/eventCreation.css" />
-
 
 </head>
 
@@ -103,6 +95,18 @@
     <script src="https://kit.fontawesome.com/df012b2a98.js" crossorigin="anonymous"></script>
 
 
+    <div id="navBar">
+
+        <a href="homePage.html"><i class="fas fa-home fa-lg" style="margin: 15px 5px"></i></a>
+        <!-- DM Inbox -->
+        <a href="chatList.html"><i class="fas fa-envelope fa-lg" style="margin: 15px 5px"></i></a>
+        <!-- Profile page -->
+        <a href="notification.html"><i class="fas fa-bell fa-lg" style="margin: 15px 5px"></i></a>
+        <!-- Chat list pge -->
+        <a href="profile.html"><i class="fas fa-user fa-lg" style="margin: 15px 5px"></i></a>
+
+    </div>
+    <div id="bottomBuffer"></div>
 </body>
 
 </html>
