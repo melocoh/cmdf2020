@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
 /* 
     #events{
@@ -11,8 +10,9 @@
         grid-template-rows: ;
 
     } */
-html,body{
-  height: 100%;
+html,
+body {
+    height: 100%;
 }
 
 head,
@@ -22,8 +22,12 @@ body {
     background-color: rgb(238, 195, 195);
 }
 
+.header {
+    background-color: rgb(238, 195, 195);
+
+}
+
 #container {
-    /* padding-top: 10vh; */
     background-color: rgb(238, 195, 195);
 /*    width: 100%;*/
     overflow: scroll;
@@ -31,12 +35,10 @@ body {
 
 #textbox {
     width: 80vw;
-/*    height: 20%;*/
-/*  display: block;*/
     margin: auto;
-    /* background-color:#BB997F; */
     box-shadow: black;
     padding: 5vh 5vw;
+
 }
 
 .header {
@@ -47,40 +49,26 @@ h1 {
     text-align: center;
 }
 
-.eventGrid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    padding-right: 10px;
-    /* padding-top: 10px; */
-    padding-left: 10px;
-    color: #783B5A;
-    margin-right: 10px;
+
+table {
+    margin: 10% 0 0;
 }
 
 #tours {
-    grid-row: 0 / span 1;
-    grid-column: 1 / span 1;
     text-align: center;
     padding-top: 20px;
 }
 
 #cuisine {
-    grid-row: 0 / span 1;
-    grid-column: 2 / span 1;
     text-align: center;
     padding-top: 20px;
 }
 
 #language {
-    grid-row: 1 / span 1;
-    grid-column: 1 / span 1;
     text-align: center;
 }
 
 #sport {
-    grid-row: 1 / span 1;
-    grid-column: 2 / span 1;
     text-align: center;
 }
 
@@ -91,4 +79,8 @@ h1 {
 
 #logo {
     width: 30%;
+}
+
+#navbar {
+    margin-left: -4%;
 }
