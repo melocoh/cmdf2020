@@ -15,6 +15,10 @@
   
    <!-- Import chat room JS -->
   <script type="text/javascript" src="../scripts/chatScript.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="../css/general.css">
+    <!-- Icon Scripts -->
+    <script src="https://kit.fontawesome.com/ffa0cc5e23.js" crossorigin="anonymous"></script>
   
 </head>
 
@@ -26,12 +30,12 @@
       <!-- Chat header container -->
       <div id="chatHeader">
         <!-- Back arrow -->
-        <div id="chatArrow"><a href="chat-list.html"><i class="fas fa-arrow-left"></i></a></div>
+        <div id="chatArrow"><a href="chatList.html"><i class="fas fa-arrow-left"></i></a></div>
         <div>
           <!-- Name of who you're talking to -->
           <span id="chatName">Advisor James</span>
           <!-- Status of who you're talking to -->
-          <div id="chatStatus">Online</div>
+          <div id="chatStatus" style = "color: green;">Online</div>
         </div>
       </div>
       <!-- Chat messages box -->
@@ -53,9 +57,9 @@
         <button onclick="add();clear();" class="chatSubmit fa fa-send"></button>
       </div>
     </div>
+
   </div>
   <!-- /.content -->
-
   </body>
 
 </html>
