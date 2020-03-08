@@ -1,13 +1,14 @@
 <!doctype>
 <html lang="en">
+
 <head>
     <!-- Internal linked stylesheets -->
-    <link rel="stylesheet" type="text/css" href="../css/general.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/general.css" />
     <link rel="stylesheet" type="text/css" href="../css/questionSearch.css" />
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name = "viewport" content="width = device-width, initial-scale= 1">
+    <meta name="viewport" content="width = device-width, initial-scale= 1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -15,6 +16,16 @@
 
     <!-- For linked Icons scripts in NavBar -->
     <script src="https://kit.fontawesome.com/ffa0cc5e23.js" crossorigin="anonymous"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
     <script>
         // Your web app's Firebase configuration
         var firebaseConfig = {
@@ -42,7 +53,7 @@
             <img id="logo" src="../images/logo.png">
         </div>
         <div id="textbox" class="textbox">
-            
+
             <h1>Find a Friend!</h1>
 
             <form id="form_eventCreation" class="form_eventCreation">
@@ -60,8 +71,8 @@
                     </div>
                 </div>
                 <div class="input-group-prepend">
-                    <textarea id="message" class="form-control"
-                        aria-label="With textarea" placeholder="Message to send out" require></textarea>
+                    <textarea id="message" class="form-control" aria-label="With textarea"
+                        placeholder="Message to send out" require></textarea>
                 </div>
                 <br />
                 <div class="form-group row">

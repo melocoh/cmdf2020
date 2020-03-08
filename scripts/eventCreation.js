@@ -38,7 +38,7 @@ function processForm(e) {
                 docID: timeID,
                 timeStamp: firebase.firestore.Timestamp.now()
             }).then(function () {
-                window.location.assign("dummyNextPage.html?" + timeID);
+                window.location.assign("notification.html?" + timeID);
                 console.log("created an event with", subject);
             });
         };
