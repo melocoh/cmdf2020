@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+
+  <head>
+  
+    <title>Chat List</title>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content="width = device-width, initial-scale= 1">
+    
+    <link rel="stylesheet" type="text/css" href="chatList.css">
+    
+    <!-- Icon Scripts -->
+    <script src="https://kit.fontawesome.com/ffa0cc5e23.js" crossorigin="anonymous"></script>
+    
+<!--    <script type="text/javascript" src="navBar.js"></script>-->
+    
+</head>
+
+<body>
+
+    <!-- Top bar -->
+    <div id="topBarPlaceholder"></div>
+
+    <!-- Page Content -->
+    <div id="content">
+        <!-- Top buffer so top bar doesn't overlap with content -->
+        <div id="topBuffer"></div>
+        <!-- Messages heading -->
+        <span>&nbsp;&nbsp;Messages</span>
+
+        <!-- One chat listing -->
+        <div onclick="window.location.href = 'chat.html'" id="chatContainer" class="container">
+            <!-- Profile picture of chat listing -->
+            <div id="chatPicture"><img src="https://dummyimage.com/50x50/000/fff" alt="Sample Profile Picture" /></div>
+            <!-- Description of chat listing with name & last seen message -->
+            <div id="chatDescription">
+                <div id="chatName">Advisor James</div>
+                <div id="chatText">Around 5pm</div>
+            </div>
+        </div>
+
+        <!-- Bottom buffer so nav bar doesn't overlap with content -->
+        <div id="bottomBuffer"></div>
+    </div>
+    <!-- /.content -->
+
+    <!-- navigation bar -->
+    <div id="navBar">
+      
+    <a href="main.html"><i class="fas fa-home fa-lg" style= "margin: 15px 5px"></i></a>
+    <!-- DM Inbox -->
+    <a href="chatRoom.html"><i class="fas fa-envelope fa-lg" style= "margin: 15px 5px" ></i></a>
+    <!-- Profile page -->
+    <a href="chat-list.html"><i class="fas fa-bell fa-lg" style= "margin: 15px 5px"></i></a>  
+    <!-- Chat list pge -->
+    <a href="profile.html"><i class="fas fa-user fa-lg" style= "margin: 15px 5px"></i></a>
+      
+  </div>
+
+    <!-- Firebase authentification -->
+    <script type="text/javascript" src="scripts/firebase-auth.js"></script>
+</body>
+  
+  
+</html>
