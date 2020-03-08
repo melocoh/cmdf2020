@@ -20,6 +20,7 @@
     width: 20%;
     text-align: center;
     padding: 13px 0;
+    margin-left: 9.5px;
     transition: all 0.3s ease;
     color: black;
     font-size: 4vmax;
@@ -36,5 +37,9 @@
 }
 
 #eventId{
+    background-color: rgb(238, 195, 195);
+}
+
+.container{
     background-color: rgb(238, 195, 195);
 }

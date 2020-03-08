@@ -15,7 +15,6 @@ body {
     height: 100%;
 }
 
-
 head,
 body {
     padding: 0;
@@ -30,7 +29,7 @@ body {
 
 #container {
     background-color: rgb(238, 195, 195);
-    width: 100%;
+/*    width: 100%;*/
     overflow: scroll;
 }
 
