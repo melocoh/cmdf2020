@@ -25,6 +25,7 @@ body {
     background-color: rgb(238, 195, 195);
     width: 100%;
     overflow: scroll;
+
 }
 
 #searchBar {
@@ -44,24 +45,6 @@ body {
     text-decoration: none;
 
 }
-
-/* 
-.button figure {
-    margin: 0 0 15px;
-  }
-  
-.button figure img {
-    border-radius: 100%;
-    width: 35vw;
-  }
-  
-.button .text {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #1d368a;
-    margin: 0 0 15px;
-    font-size: 15px;
-  } */
 
 .searchResult .dummyResult {
     margin: 8%;
@@ -84,4 +67,8 @@ body {
     border-radius: 6px;
     /* display: inline-block; */
     background-color: white;
+}
+
+#bottomBuffer {
+    margin-bottom: 10vmax;
 }

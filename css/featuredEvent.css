@@ -11,6 +11,11 @@
         grid-template-rows: ;
 
     } */
+html,body{
+  height: 100%;
+}
+
+
 head,
 body {
     padding: 0;
