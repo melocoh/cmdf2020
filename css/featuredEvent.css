@@ -3,76 +3,85 @@
         padding-top: 5px;
     } */
 
-    /* .eventGrid{
+/* .eventGrid{
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: ;
 
     } */
-    body {
-        padding: 0;
-        margin: 0;
-    }
-    
-    #container {
-        padding-top: 10vh;
-    
-    }
-    
-    #textbox {
-        width: 80vw;
-        height: 80%;
-        margin: auto;
-        background-color:#BB997F;
-        box-shadow: black;
-        padding: 5vh 5vw;
-    }
+head,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 195, 195);
+}
 
-    .eventGrid{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
-        padding-right: 10px;
-        /* padding-top: 10px; */
-        padding-left: 10px;
-        color: #783B5A;
-        margin-right: 10px;
-    }
+#container {
+    /* padding-top: 10vh; */
+    background-color: rgb(238, 195, 195);
+    width: 100%;
+    overflow: scroll;
+}
 
-    #tours {
-        grid-row: 0 / span 1;
-        grid-column: 1 / span 1;
-        text-align: center;
-        padding-top: 20px;
+#textbox {
+    width: 80vw;
+    /* height: 80%; */
+    margin: auto;
+    /* background-color:#BB997F; */
+    box-shadow: black;
+    padding: 5vh 5vw;
+}
 
-    }
+.header {
+    text-align: center;
+}
 
-    #cuisine {
-        grid-row: 0 / span 1;
-        grid-column: 2 / span 1;
-        text-align: center;
-        padding-top: 20px;
-    }
+h1 {
+    text-align: center;
+}
 
-    #language {
-        grid-row: 1 / span 1;
-        grid-column: 1 / span 1;
-        text-align: center;
-    }
+.eventGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding-right: 10px;
+    /* padding-top: 10px; */
+    padding-left: 10px;
+    color: #783B5A;
+    margin-right: 10px;
+}
 
-    #sport {
-        grid-row: 1 / span 1;
-        grid-column: 2 / span 1;
-        text-align: center;
-    }
+#tours {
+    grid-row: 0 / span 1;
+    grid-column: 1 / span 1;
+    text-align: center;
+    padding-top: 20px;
+}
 
-    #heading{
-        margin-left: 30px;
-    }
-    
-    .header{
-        text-align: center;
-    }
-    #logo{
-        width: 30%;
-    }
+#cuisine {
+    grid-row: 0 / span 1;
+    grid-column: 2 / span 1;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#language {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    text-align: center;
+}
+
+#sport {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+    text-align: center;
+}
+
+
+#heading {
+    margin-left: 30px;
+}
+
+#logo {
+    width: 30%;
+}
