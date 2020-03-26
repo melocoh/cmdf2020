@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+
+html, body {
+    background-color: white;
+    padding: 0;
+    margin: auto;
+    float: center;
+    font-size: 2vmax;
+}
+
+#content {
+    font-family: 'Roboto', sans-serif;
+}
+
+#content span {
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 15vmax 60%;
+    margin-top: 5px;
+    padding-top: 8px;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(238, 195, 195);
+}
+
+.container:hover {
+    cursor: pointer;
+    background-color: #f1f0f0;
+    transition: all 150ms ease;
+}
+
+.container:not(:hover) {
+    transition: all 150ms ease;
+}
+
+#chatPicture img {
+    border-radius: 50%;
+    height: 8.5vmax;
+    margin-left: 15px;
+}
+
+#chatDescription {
+    margin-top: 14px;
+    margin-left: -10px;
+}
+
+#chatText {
+    margin-top: 5px;
+    margin-left: -2px;
+    color: #979797;
+}
+
+#navbar .fa-comment {
+    color: #283593;
+}

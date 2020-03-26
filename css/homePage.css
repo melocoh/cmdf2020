@@ -1,0 +1,54 @@
+
+html, body{
+  height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+
+head, body{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: rgb(238, 195, 195);
+    width: 100%;
+    overflow: scroll;
+}
+
+.button {
+    margin:10% 10% 7.8%;
+    background: #ffffff;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 80vw;
+    text-decoration: none;
+    
+  }
+  
+.button figure {
+    margin: 0 0 15px;
+  }
+  
+.button figure img {
+    /* border-radius: 100%; */
+    width: 35vw;
+  }
+  
+.button .text {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1d368a;
+    margin: 0 0 15px;
+    font-size: 25px;
+  }
+
+  .header{
+    text-align: center;
+  }
+  #logo{
+      width: 30%;
+  }

@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
 body {
     padding: 0;
     margin: 0;
 }
 
 #container {
-    padding-top: 10vh;
+    /* padding-top: 5vh; */
 
 }
 
@@ -12,7 +14,7 @@ body {
     width: 80vw;
     height: 80%;
     margin: auto;
-    background-color:#BB997F;
+    /* background-color:#BB997F; */
     box-shadow: black;
     padding: 5vh 5vw;
 }
@@ -33,4 +35,11 @@ body {
     color: white;
     background-color: #AA6A6A;
     border-color: #AA6A6A;
+}
+
+.header{
+    text-align: center;
+}
+#logo{
+    width: 32%;
 }

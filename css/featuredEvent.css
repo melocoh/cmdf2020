@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+/* 
+    #events{
+        padding-top: 5px;
+    } */
+
+/* .eventGrid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: ;
+
+    } */
+html,body{
+  height: 100%;
+}
+
+head,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 195, 195);
+}
+
+#container {
+    /* padding-top: 10vh; */
+    background-color: rgb(238, 195, 195);
+/*    width: 100%;*/
+    overflow: scroll;
+}
+
+#textbox {
+    width: 80vw;
+/*    height: 20%;*/
+/*  display: block;*/
+    margin: auto;
+    /* background-color:#BB997F; */
+    box-shadow: black;
+    padding: 5vh 5vw;
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.eventGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding-right: 10px;
+    /* padding-top: 10px; */
+    padding-left: 10px;
+    color: #783B5A;
+    margin-right: 10px;
+}
+
+#tours {
+    grid-row: 0 / span 1;
+    grid-column: 1 / span 1;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#cuisine {
+    grid-row: 0 / span 1;
+    grid-column: 2 / span 1;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#language {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    text-align: center;
+}
+
+#sport {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+    text-align: center;
+}
+
+
+#heading {
+    margin-left: 30px;
+}
+
+#logo {
+    width: 30%;
+}
